@@ -138,7 +138,7 @@ log "_bb_autoload: I am ready."
 log "-------------------------"
 log "Add the following lines in your application init:"
 log 
-log "require_once (\"_bb_autoload/autoload.php\");"
+log "require_once \"_bb_autoload/autoload.php\";"
 log 
 
 
