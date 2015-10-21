@@ -101,7 +101,7 @@ done
 
 
 if ! [ -d "$dir" ]; then
-    logg "$dir not found found in your current directory, trying from your local machine ($localDir)"
+    logg "$dir not found in your current directory, trying from your local machine ($localDir)"
     
     if [ -d "$localDir" ]; then
         logg "Copying dir from your local machine ($localDir)"
