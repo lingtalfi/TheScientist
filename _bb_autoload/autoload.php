@@ -26,7 +26,12 @@ if (!function_exists('a')) {
             if ('1' !== ini_get('xdebug.default_enable')) {
                 $output = preg_replace("!\]\=\>\n(\s+)!m", "] => ", $output);
             }
-            echo '<pre>' . $output . '</pre>';
+            if ('cli' === PHP_SAPI) {
+                echo $output;
+            }
+            else {
+                echo '<pre>' . $output . '</pre>';
+            }
         }
     }
     function az()
