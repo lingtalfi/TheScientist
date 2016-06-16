@@ -124,7 +124,7 @@ So my point here is this: choose your name thoughtfully, and know your include_p
 
 ### Your autoloader script as a booter script
 
-Also, I love to use two debug functions: a and az, which are basically aliases for the native php var_dump function.
+Also, I love to use two debug functions: a and [az](https://github.com/lingtalfi/az-functions), which are basically aliases for the native php var_dump function.
 From my experience, they are a huge time saver, and I recommend that you try them as soon as possible, and
 I'm pretty sure they will never quit you for php development.
 
