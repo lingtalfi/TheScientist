@@ -22,7 +22,7 @@ universe:
         Bat: *
         ArrayToString: 1.4.0
 git:
-    https://github.com/tecnickcom/tcpdf
+    - https://github.com/tecnickcom/tcpdf
 
 
 post_install:
