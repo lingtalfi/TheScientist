@@ -44,8 +44,10 @@ The other parts are ok to implement and self explanatory:
             although there is no formal documentation about it yet).
 - git: contains dependencies to stand-alone github repositories.
     - https://github.com/tecnickcom/tcpdf, use the tcpdf repository. No version is specified, so the last version should be used.
-        This is equivalent to specifying:
-        - https://github.com/tecnickcom/tcpdf:*
+        If we want to use a specific version (tag), we need to use the triple colon (:::) separator, for instance:
+        - https://github.com/tecnickcom/tcpdf:::6.2.25
+        - https://github.com/tecnickcom/tcpdf:::6.2.13
+        - https://github.com/tecnickcom/tcpdf:::*
         Note: this omission of the tag only works for the git dependency system, the dependencies in the universe dependency
         must always specify the tag (or wildcard).
 
