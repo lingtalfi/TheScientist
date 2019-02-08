@@ -22,7 +22,7 @@ universe:
         Bat: *
         ArrayToString: 1.4.0
 git:
-    tcpdf: https://github.com/tecnickcom/tcpdf
+    https://github.com/tecnickcom/tcpdf
 
 
 post_install:
@@ -43,9 +43,9 @@ The other parts are ok to implement and self explanatory:
         - ArrayToString: 1.4.0, use the ArrayToString planet in version 1.4.0. 1.4.0 should be a tag in the corresponding github repository (that's how planets should work in the universe,
             although there is no formal documentation about it yet).
 - git: contains dependencies to stand-alone github repositories.
-    - tcpdf: https://github.com/tecnickcom/tcpdf, use the tcpdf repository. No version is specified, so the last version should be used.
+    - https://github.com/tecnickcom/tcpdf, use the tcpdf repository. No version is specified, so the last version should be used.
         This is equivalent to specifying:
-        - tcpdf: https://github.com/tecnickcom/tcpdf:*
+        - https://github.com/tecnickcom/tcpdf:*
 
 - ... more dependency systems might be added in the future
 
