@@ -105,6 +105,7 @@ So if you are the author of planet A which depends on planet B, and B upgrades t
 
 - either you don't like the new B api, and so you break the dependency to the new B api.
         This will involve some extra work for you:
+        
         - you could fork the old B api and make a new dependency to this old B api 
         - or you could integrate the B code directly in your planet (make the B code a part of your A planet)
         
