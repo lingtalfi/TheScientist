@@ -104,10 +104,9 @@ it has to use it until the end.
 So if you are the author of planet A which depends on planet B, and B upgrades to version 2.2.1, then you have two options:
 
 - either you don't like the new B api, and so you break the dependency to the new B api.
-        This will involve some extra work for you:
-        
-        - you could fork the old B api and make a new dependency to this old B api 
-        - or you could integrate the B code directly in your planet (make the B code a part of your A planet)
+    This will involve some extra work for you:        
+    - you could fork the old B api and make a new dependency to this old B api 
+    - or you could integrate the B code directly in your planet (make the B code a part of your A planet)
         
 - or you embrace the change in the B api, updating your A planet codebase to adapt with the new B api, and thus conserving the dependency to the B planet.
 
