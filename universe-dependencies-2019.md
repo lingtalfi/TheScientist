@@ -42,7 +42,7 @@ And a more formal notation would be this:
 ```yaml
 dependencies:
     $dependencySystem:
-        - $itemName
+        - $packageImportName
 post_install:
     $directiveName: $directiveConfiguration
 ```
