@@ -37,6 +37,17 @@ post_install:
             option1: blabla
 ```
 
+And a more formal notation would be this:
+
+```yaml
+dependencies:
+    $dependencySystem:
+        - $itemName
+post_install:
+    $directiveName: $directiveConfiguration
+```
+
+
 
 Note for implementors: the **post_install**'s move action is fictive, it's not part of the system yet.
 
