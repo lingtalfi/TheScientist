@@ -30,7 +30,7 @@
  * 
  * 
  */
-use BumbleBee\Autoload\ButineurAutoloader;
+use Ling\BumbleBee\Autoload\ButineurAutoloader;
 
 
 require_once __DIR__ . '/planets/BumbleBee/Autoload/BeeAutoloader.php';

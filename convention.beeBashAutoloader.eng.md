@@ -32,7 +32,7 @@ It consists of creating the following structure in your application directory:
 And the autoload.php has the following content in it:
 
 ```php
-use BumbleBee\Autoload\ButineurAutoloader;
+use Ling\BumbleBee\Autoload\ButineurAutoloader;
 
 require_once __DIR__ . '/BeeAutoloader.php';
 require_once __DIR__ . '/ButineurAutoloader.php';
