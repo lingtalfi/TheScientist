@@ -27,6 +27,10 @@ uni import Ling/TheScientist
 History Log
 ===============
 
+- 1.0.2 -- 2019-03-07
+
+    - added bsr-1 documentation page
+
 - 1.0.1 -- 2019-02-26
 
     - update the "new dependency system for the universe" document
