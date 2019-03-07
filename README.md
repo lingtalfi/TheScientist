@@ -8,6 +8,7 @@ TheScientist
 - [portable Autoloader for php](https://github.com/lingtalfi/TheScientist/blob/master/convention.portableAutoloader.eng.md)
 - [bee bash autoloader for php](https://github.com/lingtalfi/TheScientist/blob/master/convention.beeBashAutoloader.eng.md)
 - [new dependency system for the universe](https://github.com/lingtalfi/TheScientist/blob/master/universe-dependencies-2019.md)
+- [bsr-1](https://github.com/lingtalfi/TheScientist/blob/master/bsr-1.md)
 
 
 
